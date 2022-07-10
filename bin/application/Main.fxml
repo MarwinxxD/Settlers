@@ -62,7 +62,7 @@
             <Image url="@../hills.png" />
          </image>
       </ImageView>
-      <ImageView fx:id="Image5" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="89.0" onDragDetected="#Village" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="Image5" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../forest.png" />
          </image>
