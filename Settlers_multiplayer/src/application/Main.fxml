@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Image1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="861.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <ImageView fx:id="Image" fitHeight="119.0" fitWidth="104.0" layoutX="288.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image13" fitHeight="119.0" fitWidth="104.0" layoutX="288.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../desert.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image1" fitHeight="119.0" fitWidth="104.0" layoutX="132.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image2" fitHeight="119.0" fitWidth="104.0" layoutX="210.0" layoutY="88.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fields.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image3" fitHeight="119.0" fitWidth="104.0" layoutX="288.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image4" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image21" fitHeight="119.0" fitWidth="104.0" layoutX="444.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fields.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image22" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fields.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image23" fitHeight="119.0" fitWidth="104.0" layoutX="210.0" layoutY="176.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fields.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image41" fitHeight="119.0" fitWidth="104.0" layoutX="210.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image42" fitHeight="119.0" fitWidth="104.0" layoutX="288.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../hills.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image5" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image6" fitHeight="119.0" fitWidth="104.0" layoutX="444.0" layoutY="313.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image7" fitHeight="119.0" fitWidth="104.0" layoutX="132.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../forest.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image11" fitHeight="119.0" fitWidth="104.0" layoutX="288.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image12" fitHeight="119.0" fitWidth="104.0" layoutX="132.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image14" fitHeight="119.0" fitWidth="104.0" layoutX="364.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pasture.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image31" fitHeight="119.0" fitWidth="104.0" layoutX="444.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image32" fitHeight="119.0" fitWidth="104.0" layoutX="210.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../mountains.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image33" fitHeight="214.0" fitWidth="157.0" layoutX="702.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../costCard.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="674.0" layoutY="200.0" prefHeight="25.0" prefWidth="16.0" text="P1" textFill="#f80101" />
+      <Label layoutX="714.0" layoutY="200.0" prefHeight="25.0" prefWidth="16.0" text="P2" textFill="#1710e1" />
+      <Label fx:id="P3" layoutX="754.0" layoutY="200.0" prefHeight="25.0" prefWidth="16.0" text="P3">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.8984375" green="0.9078947305679321" blue="0.8700658082962036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.36799463629722595" green="0.3684210479259491" blue="0.3667154014110565" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label fx:id="P4" layoutX="794.0" layoutY="200.0" prefHeight="25.0" prefWidth="16.0" text="P4" textFill="#e09312" />
+      <ImageView fx:id="Image121" fitHeight="76.0" fitWidth="49.0" layoutX="583.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../brick.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image1211" fitHeight="76.0" fitWidth="49.0" layoutX="583.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ore.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image1212" fitHeight="76.0" fitWidth="49.0" layoutX="583.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../wool.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image1213" fitHeight="76.0" fitWidth="49.0" layoutX="583.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../wood.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Image1214" fitHeight="76.0" fitWidth="49.0" layoutX="583.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../grain.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="P1Brick" alignment="CENTER" layoutX="662.0" layoutY="221.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P1Wool" alignment="CENTER" layoutX="662.0" layoutY="297.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P1Grain" alignment="CENTER" layoutX="662.0" layoutY="367.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P1Wood" alignment="CENTER" layoutX="662.0" layoutY="445.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P1Ore" alignment="CENTER" layoutX="662.0" layoutY="523.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P2Brick" alignment="CENTER" contentDisplay="CENTER" layoutX="702.0" layoutY="221.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P2Wool" alignment="CENTER" contentDisplay="CENTER" layoutX="702.0" layoutY="296.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P2Grain" alignment="CENTER" contentDisplay="CENTER" layoutX="702.0" layoutY="370.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P2Wood" alignment="CENTER" contentDisplay="CENTER" layoutX="702.0" layoutY="446.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P2Ore" alignment="CENTER" contentDisplay="CENTER" layoutX="702.0" layoutY="522.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P3Brick" alignment="CENTER" layoutX="742.0" layoutY="221.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P3Wool" alignment="CENTER" layoutX="742.0" layoutY="297.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P3Grain" alignment="CENTER" layoutX="742.0" layoutY="367.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P3Wood" alignment="CENTER" layoutX="742.0" layoutY="445.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P3Ore" alignment="CENTER" layoutX="742.0" layoutY="523.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P4Brick" alignment="CENTER" contentDisplay="CENTER" layoutX="782.0" layoutY="221.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P4Wool" alignment="CENTER" contentDisplay="CENTER" layoutX="782.0" layoutY="296.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P4Grain" alignment="CENTER" contentDisplay="CENTER" layoutX="782.0" layoutY="370.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P4Wood" alignment="CENTER" contentDisplay="CENTER" layoutX="782.0" layoutY="446.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <Label fx:id="P4Ore" alignment="CENTER" contentDisplay="CENTER" layoutX="782.0" layoutY="522.0" prefHeight="76.0" prefWidth="40.0" text="amount" />
+      <ImageView fx:id="ImageB1" fitHeight="25.0" fitWidth="16.0" layoutX="384.0" layoutY="437.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB17" fitHeight="25.0" fitWidth="16.0" layoutX="228.0" layoutY="77.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB16" fitHeight="25.0" fitWidth="16.0" layoutX="280.0" layoutY="77.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB15" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="31.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB14" fitHeight="25.0" fitWidth="16.0" layoutX="356.0" layoutY="31.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB13" fitHeight="25.0" fitWidth="16.0" layoutX="384.0" layoutY="77.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB12" fitHeight="25.0" fitWidth="16.0" layoutX="436.0" layoutY="77.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB11" fitHeight="25.0" fitWidth="16.0" layoutX="460.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB9" fitHeight="25.0" fitWidth="16.0" layoutX="540.0" layoutY="169.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB8" fitHeight="25.0" fitWidth="16.0" layoutX="515.0" layoutY="214.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB7" fitHeight="25.0" fitWidth="16.0" layoutX="540.0" layoutY="259.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB6" fitHeight="25.0" fitWidth="16.0" layoutX="515.0" layoutY="304.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB5" fitHeight="25.0" fitWidth="16.0" layoutX="540.0" layoutY="346.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB4" fitHeight="25.0" fitWidth="16.0" layoutX="515.0" layoutY="392.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB3" fitHeight="25.0" fitWidth="16.0" layoutX="460.0" layoutY="392.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB2" fitHeight="25.0" fitWidth="16.0" layoutX="436.0" layoutY="437.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB21" fitHeight="25.0" fitWidth="16.0" layoutX="153.0" layoutY="214.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB20" fitHeight="25.0" fitWidth="16.0" layoutX="124.0" layoutY="167.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB19" fitHeight="25.0" fitWidth="16.0" layoutX="153.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB18" fitHeight="25.0" fitWidth="16.0" layoutX="202.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB22" fitHeight="25.0" fitWidth="16.0" layoutX="124.0" layoutY="255.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB44" fitHeight="25.0" fitWidth="16.0" layoutX="228.0" layoutY="259.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB43" fitHeight="25.0" fitWidth="16.0" layoutX="202.0" layoutY="214.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB28" fitHeight="25.0" fitWidth="16.0" layoutX="280.0" layoutY="438.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB27" fitHeight="25.0" fitWidth="16.0" layoutX="228.0" layoutY="437.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB26" fitHeight="25.0" fitWidth="16.0" layoutX="202.0" layoutY="392.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB25" fitHeight="25.0" fitWidth="16.0" layoutX="153.0" layoutY="392.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB24" fitHeight="25.0" fitWidth="16.0" layoutX="124.0" layoutY="347.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB23" fitHeight="25.0" fitWidth="16.0" layoutX="153.0" layoutY="304.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB30" fitHeight="25.0" fitWidth="16.0" layoutX="356.0" layoutY="483.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB29" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="483.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB50" fitHeight="25.0" fitWidth="16.0" layoutX="384.0" layoutY="255.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB42" fitHeight="25.0" fitWidth="16.0" layoutX="228.0" layoutY="167.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB41" fitHeight="25.0" fitWidth="16.0" layoutX="280.0" layoutY="169.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB40" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB39" fitHeight="25.0" fitWidth="16.0" layoutX="358.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB38" fitHeight="25.0" fitWidth="16.0" layoutX="384.0" layoutY="169.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB37" fitHeight="25.0" fitWidth="16.0" layoutX="436.0" layoutY="172.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB36" fitHeight="25.0" fitWidth="16.0" layoutX="460.0" layoutY="213.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB35" fitHeight="25.0" fitWidth="16.0" layoutX="436.0" layoutY="259.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB34" fitHeight="25.0" fitWidth="16.0" layoutX="460.0" layoutY="304.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB33" fitHeight="25.0" fitWidth="16.0" layoutX="436.0" layoutY="347.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB32" fitHeight="25.0" fitWidth="16.0" layoutX="384.0" layoutY="347.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB31" fitHeight="25.0" fitWidth="16.0" layoutX="358.0" layoutY="396.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB49" fitHeight="25.0" fitWidth="16.0" layoutX="358.0" layoutY="301.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB48" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="396.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB47" fitHeight="25.0" fitWidth="16.0" layoutX="280.0" layoutY="347.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB46" fitHeight="25.0" fitWidth="16.0" layoutX="228.0" layoutY="346.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB53" fitHeight="25.0" fitWidth="16.0" layoutX="280.0" layoutY="259.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB52" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="214.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB51" fitHeight="25.0" fitWidth="16.0" layoutX="358.0" layoutY="214.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB54" fitHeight="25.0" fitWidth="16.0" layoutX="306.0" layoutY="301.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB10" fitHeight="25.0" fitWidth="16.0" layoutX="515.0" layoutY="123.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageB45" fitHeight="25.0" fitWidth="16.0" layoutX="202.0" layoutY="300.0" onMousePressed="#Village" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="542.0" layoutY="115.0" mnemonicParsing="false" onAction="#DiceShow" prefHeight="25.0" prefWidth="157.0" text="Roll" />
+      <Label fx:id="NumF18" alignment="CENTER" layoutX="455.0" layoutY="241.0" prefHeight="61.0" prefWidth="81.0" text="12" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF17" alignment="CENTER" layoutX="455.0" layoutY="150.0" prefHeight="61.0" prefWidth="81.0" text="17" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF3" alignment="CENTER" layoutX="144.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF2" alignment="CENTER" layoutX="144.0" layoutY="241.0" prefHeight="61.0" prefWidth="81.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF1" alignment="CENTER" layoutX="144.0" layoutY="148.0" prefHeight="61.0" prefWidth="81.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF7" alignment="CENTER" layoutX="222.0" layoutY="105.0" prefHeight="61.0" prefWidth="81.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF6" alignment="CENTER" layoutX="222.0" layoutY="196.0" prefHeight="61.0" prefWidth="81.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF5" alignment="CENTER" layoutX="222.0" layoutY="286.0" prefHeight="61.0" prefWidth="81.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF4" alignment="CENTER" layoutX="222.0" layoutY="373.0" prefHeight="61.0" prefWidth="81.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF12" alignment="CENTER" layoutX="300.0" layoutY="419.0" prefHeight="61.0" prefWidth="81.0" text="12" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF8" alignment="CENTER" layoutX="300.0" layoutY="58.0" prefHeight="61.0" prefWidth="81.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF9" alignment="CENTER" layoutX="300.0" layoutY="149.0" prefHeight="61.0" prefWidth="81.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF10" alignment="CENTER" layoutX="300.0" layoutY="240.0" prefHeight="61.0" prefWidth="81.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF11" alignment="CENTER" layoutX="300.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="11" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF13" alignment="CENTER" layoutX="376.0" layoutY="374.0" prefHeight="61.0" prefWidth="81.0" text="13" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF16" alignment="CENTER" layoutX="376.0" layoutY="105.0" prefHeight="61.0" prefWidth="81.0" text="16" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF15" alignment="CENTER" layoutX="376.0" layoutY="196.0" prefHeight="61.0" prefWidth="81.0" text="15" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF14" alignment="CENTER" layoutX="376.0" layoutY="285.0" prefHeight="61.0" prefWidth="81.0" text="14" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NumF19" alignment="CENTER" layoutX="455.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="19" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="change" layoutX="12.0" layoutY="456.0" mnemonicParsing="false" onAction="#ändereZustand" prefHeight="61.0" prefWidth="157.0" text="Player Switch">
+         <font>
+            <Font name="Berlin Sans FB" size="21.0" />
+         </font>
+      </Button>
+      <Label fx:id="playerField" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="419.0" prefHeight="38.0" prefWidth="157.0" text="Aktuell: Rot" textAlignment="CENTER">
+         <font>
+            <Font name="Berlin Sans FB" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="477.0" layoutY="494.0" mnemonicParsing="false" onAction="#BuyDevCard" text="DevCard" />
+      <ImageView fx:id="chapel" fitHeight="100.0" fitWidth="60.0" layoutX="480.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="university" fitHeight="100.0" fitWidth="60.0" layoutX="90.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="yop" fitHeight="100.0" fitWidth="60.0" layoutX="25.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="roadbuild" fitHeight="100.0" fitWidth="60.0" layoutX="155.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="palace" fitHeight="100.0" fitWidth="60.0" layoutX="220.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="monopoly" fitHeight="100.0" fitWidth="60.0" layoutX="285.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="market" fitHeight="100.0" fitWidth="60.0" layoutX="350.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="library" fitHeight="100.0" fitWidth="60.0" layoutX="415.0" layoutY="523.0" onMousePressed="#entferneDevCard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../black.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="P1VP" alignment="CENTER" layoutX="662.0" layoutY="179.0" prefHeight="24.0" prefWidth="40.0" text="VP: 0" />
+      <Label fx:id="P2VP" alignment="CENTER" layoutX="705.0" layoutY="179.0" prefHeight="24.0" prefWidth="34.0" text="VP: 0" />
+      <Label fx:id="P3VP" alignment="CENTER" layoutX="745.0" layoutY="179.0" prefHeight="24.0" prefWidth="34.0" text="VP: 0" />
+      <Label fx:id="P4VP" alignment="CENTER" layoutX="785.0" layoutY="179.0" prefHeight="24.0" prefWidth="34.0" text="VP: 0" />
+      <ImageView fx:id="Dice1" fitHeight="106.0" fitWidth="119.0" layoutX="593.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../one.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Dice2" fitHeight="106.0" fitWidth="119.0" layoutX="484.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../one.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="NF18" alignment="CENTER" layoutX="455.0" layoutY="241.0" prefHeight="61.0" prefWidth="81.0" text="18" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF17" alignment="CENTER" layoutX="455.0" layoutY="150.0" prefHeight="61.0" prefWidth="81.0" text="17" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF3" alignment="CENTER" layoutX="144.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="3" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF2" alignment="CENTER" layoutX="144.0" layoutY="241.0" prefHeight="61.0" prefWidth="81.0" text="2" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF1" alignment="CENTER" layoutX="144.0" layoutY="148.0" prefHeight="61.0" prefWidth="81.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF7" alignment="CENTER" layoutX="222.0" layoutY="105.0" prefHeight="61.0" prefWidth="81.0" text="7" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF6" alignment="CENTER" layoutX="222.0" layoutY="196.0" prefHeight="61.0" prefWidth="81.0" text="6" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF5" alignment="CENTER" layoutX="222.0" layoutY="286.0" prefHeight="61.0" prefWidth="81.0" text="5" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF4" alignment="CENTER" layoutX="222.0" layoutY="373.0" prefHeight="61.0" prefWidth="81.0" text="4" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF12" alignment="CENTER" layoutX="300.0" layoutY="419.0" prefHeight="61.0" prefWidth="81.0" text="12" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF8" alignment="CENTER" layoutX="300.0" layoutY="58.0" prefHeight="61.0" prefWidth="81.0" text="8" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF9" alignment="CENTER" layoutX="300.0" layoutY="149.0" prefHeight="61.0" prefWidth="81.0" text="9" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF10" alignment="CENTER" layoutX="300.0" layoutY="240.0" prefHeight="61.0" prefWidth="81.0" text="10" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF11" alignment="CENTER" layoutX="300.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="11" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF13" alignment="CENTER" layoutX="376.0" layoutY="374.0" prefHeight="61.0" prefWidth="81.0" text="13" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF16" alignment="CENTER" layoutX="376.0" layoutY="105.0" prefHeight="61.0" prefWidth="81.0" text="16" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF15" alignment="CENTER" layoutX="376.0" layoutY="196.0" prefHeight="61.0" prefWidth="81.0" text="15" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF14" alignment="CENTER" layoutX="376.0" layoutY="285.0" prefHeight="61.0" prefWidth="81.0" text="14" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="NF19" alignment="CENTER" layoutX="455.0" layoutY="328.0" prefHeight="61.0" prefWidth="81.0" text="19" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="38.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="S1" fitHeight="17.0" fitWidth="16.0" layoutX="409.0" layoutY="447.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S72" fitHeight="17.0" fitWidth="16.0" layoutX="525.0" layoutY="155.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S8" fitHeight="17.0" fitWidth="16.0" layoutX="528.0" layoutY="201.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S7" fitHeight="17.0" fitWidth="16.0" layoutX="527.0" layoutY="249.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S6" fitHeight="17.0" fitWidth="16.0" layoutX="530.0" layoutY="287.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S5" fitHeight="17.0" fitWidth="16.0" layoutX="527.0" layoutY="335.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S4" fitHeight="17.0" fitWidth="16.0" layoutX="523.0" layoutY="379.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S3" fitHeight="17.0" fitWidth="16.0" layoutX="488.0" layoutY="402.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S2" fitHeight="17.0" fitWidth="16.0" layoutX="449.0" layoutY="426.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S30" fitHeight="17.0" fitWidth="16.0" layoutX="370.0" layoutY="426.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S29" fitHeight="17.0" fitWidth="16.0" layoutX="372.0" layoutY="469.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S28" fitHeight="17.0" fitWidth="16.0" layoutX="332.0" layoutY="494.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S27" fitHeight="17.0" fitWidth="16.0" layoutX="294.0" layoutY="469.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S26" fitHeight="17.0" fitWidth="16.0" layoutX="255.0" layoutY="447.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S25" fitHeight="17.0" fitWidth="16.0" layoutX="217.0" layoutY="424.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S24" fitHeight="17.0" fitWidth="16.0" layoutX="179.0" layoutY="402.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S23" fitHeight="17.0" fitWidth="16.0" layoutX="138.0" layoutY="381.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S22" fitHeight="17.0" fitWidth="16.0" layoutX="140.0" layoutY="335.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S21" fitHeight="17.0" fitWidth="16.0" layoutX="138.0" layoutY="287.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S20" fitHeight="17.0" fitWidth="16.0" layoutX="134.0" layoutY="245.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S19" fitHeight="17.0" fitWidth="16.0" layoutX="140.0" layoutY="201.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S18" fitHeight="17.0" fitWidth="16.0" layoutX="136.0" layoutY="157.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S17" fitHeight="17.0" fitWidth="16.0" layoutX="177.0" layoutY="134.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S16" fitHeight="17.0" fitWidth="16.0" layoutX="216.0" layoutY="105.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S15" fitHeight="17.0" fitWidth="16.0" layoutX="255.0" layoutY="87.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S14" fitHeight="17.0" fitWidth="16.0" layoutX="295.0" layoutY="67.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S13" fitHeight="17.0" fitWidth="16.0" layoutX="332.0" layoutY="41.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S12" fitHeight="17.0" fitWidth="16.0" layoutX="370.0" layoutY="60.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S11" fitHeight="17.0" fitWidth="16.0" layoutX="409.0" layoutY="88.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S10" fitHeight="17.0" fitWidth="16.0" layoutX="446.0" layoutY="112.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S9" fitHeight="17.0" fitWidth="16.0" layoutX="488.0" layoutY="134.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S63" fitHeight="17.0" fitWidth="16.0" layoutX="292.0" layoutY="201.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S62" fitHeight="17.0" fitWidth="16.0" layoutX="373.0" layoutY="201.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S61" fitHeight="17.0" fitWidth="16.0" layoutX="409.0" layoutY="269.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S60" fitHeight="17.0" fitWidth="16.0" layoutX="368.0" layoutY="333.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S59" fitHeight="17.0" fitWidth="16.0" layoutX="295.0" layoutY="380.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S58" fitHeight="17.0" fitWidth="16.0" layoutX="254.0" layoutY="357.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S57" fitHeight="17.0" fitWidth="16.0" layoutX="217.0" layoutY="335.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S56" fitHeight="17.0" fitWidth="16.0" layoutX="217.0" layoutY="292.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S55" fitHeight="17.0" fitWidth="16.0" layoutX="214.0" layoutY="246.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S54" fitHeight="17.0" fitWidth="16.0" layoutX="214.0" layoutY="201.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S53" fitHeight="17.0" fitWidth="16.0" layoutX="253.0" layoutY="177.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S52" fitHeight="17.0" fitWidth="16.0" layoutX="296.0" layoutY="159.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S51" fitHeight="17.0" fitWidth="16.0" layoutX="333.0" layoutY="132.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S50" fitHeight="17.0" fitWidth="16.0" layoutX="372.0" layoutY="157.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S49" fitHeight="17.0" fitWidth="16.0" layoutX="408.0" layoutY="179.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S48" fitHeight="17.0" fitWidth="16.0" layoutX="451.0" layoutY="194.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S47" fitHeight="17.0" fitWidth="16.0" layoutX="454.0" layoutY="242.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S46" fitHeight="17.0" fitWidth="16.0" layoutX="451.0" layoutY="287.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S45" fitHeight="17.0" fitWidth="16.0" layoutX="454.0" layoutY="336.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S44" fitHeight="17.0" fitWidth="16.0" layoutX="408.0" layoutY="357.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S43" fitHeight="17.0" fitWidth="16.0" layoutX="374.0" layoutY="373.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S42" fitHeight="17.0" fitWidth="16.0" layoutX="333.0" layoutY="403.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S41" fitHeight="17.0" fitWidth="16.0" layoutX="294.0" layoutY="419.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S40" fitHeight="17.0" fitWidth="16.0" layoutX="215.0" layoutY="380.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S39" fitHeight="17.0" fitWidth="16.0" layoutX="177.0" layoutY="314.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S38" fitHeight="17.0" fitWidth="16.0" layoutX="177.0" layoutY="223.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S37" fitHeight="17.0" fitWidth="16.0" layoutX="219.0" layoutY="152.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S36" fitHeight="17.0" fitWidth="16.0" layoutX="294.0" layoutY="105.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S35" fitHeight="17.0" fitWidth="16.0" layoutX="374.0" layoutY="105.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S34" fitHeight="17.0" fitWidth="16.0" layoutX="451.0" layoutY="151.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S33" fitHeight="17.0" fitWidth="16.0" layoutX="488.0" layoutY="225.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S32" fitHeight="17.0" fitWidth="16.0" layoutX="488.0" layoutY="315.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S31" fitHeight="17.0" fitWidth="16.0" layoutX="446.0" layoutY="378.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S69" fitHeight="17.0" fitWidth="16.0" layoutX="332.0" layoutY="224.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S68" fitHeight="17.0" fitWidth="16.0" layoutX="371.0" layoutY="245.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S67" fitHeight="17.0" fitWidth="16.0" layoutX="376.0" layoutY="287.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S66" fitHeight="17.0" fitWidth="16.0" layoutX="332.0" layoutY="315.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S65" fitHeight="17.0" fitWidth="16.0" layoutX="294.0" layoutY="335.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S64" fitHeight="17.0" fitWidth="16.0" layoutX="256.0" layoutY="259.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S71" fitHeight="17.0" fitWidth="16.0" layoutX="290.0" layoutY="287.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="S70" fitHeight="17.0" fitWidth="16.0" layoutX="297.0" layoutY="242.0" onMousePressed="#Street" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R1" fitHeight="17.0" fitWidth="16.0" layoutX="196.0" layoutY="172.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R2" fitHeight="17.0" fitWidth="16.0" layoutX="196.0" layoutY="264.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R3" fitHeight="17.0" fitWidth="16.0" layoutX="196.0" layoutY="350.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R4" fitHeight="17.0" fitWidth="16.0" layoutX="273.0" layoutY="127.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R5" fitHeight="17.0" fitWidth="16.0" layoutX="273.0" layoutY="218.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R6" fitHeight="17.0" fitWidth="16.0" layoutX="273.0" layoutY="308.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R7" fitHeight="17.0" fitWidth="16.0" layoutX="273.0" layoutY="397.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R8" fitHeight="17.0" fitWidth="16.0" layoutX="350.0" layoutY="81.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R9" fitHeight="17.0" fitWidth="16.0" layoutX="350.0" layoutY="172.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R10" fitHeight="38.0" fitWidth="33.0" layoutX="350.0" layoutY="264.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../robber.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R11" fitHeight="17.0" fitWidth="16.0" layoutX="350.0" layoutY="353.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R12" fitHeight="17.0" fitWidth="16.0" layoutX="350.0" layoutY="441.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R13" fitHeight="17.0" fitWidth="16.0" layoutX="425.0" layoutY="127.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R14" fitHeight="17.0" fitWidth="16.0" layoutX="425.0" layoutY="218.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R15" fitHeight="17.0" fitWidth="16.0" layoutX="425.0" layoutY="308.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R16" fitHeight="17.0" fitWidth="16.0" layoutX="425.0" layoutY="399.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R17" fitHeight="17.0" fitWidth="16.0" layoutX="504.0" layoutY="175.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R18" fitHeight="17.0" fitWidth="16.0" layoutX="504.0" layoutY="264.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="R19" fitHeight="17.0" fitWidth="16.0" layoutX="502.0" layoutY="353.0" onMousePressed="#setRäuber" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../leeres%20Feld.PNG" />
+         </image>
+      </ImageView>
+      <Button fx:id="yopWd" layoutX="14.0" layoutY="113.0" mnemonicParsing="false" onAction="#yopWd" prefHeight="47.0" prefWidth="105.0" text="Wood" />
+      <Button fx:id="yopWl" layoutX="14.0" layoutY="163.0" mnemonicParsing="false" onAction="#yopWl" prefHeight="47.0" prefWidth="105.0" text="Wool" />
+      <Button fx:id="yopBr" layoutX="14.0" layoutY="213.0" mnemonicParsing="false" onAction="#yopBr" prefHeight="47.0" prefWidth="105.0" text="Brick" />
+      <Button fx:id="yopG" layoutX="14.0" layoutY="263.0" mnemonicParsing="false" onAction="#yopG" prefHeight="47.0" prefWidth="105.0" text="Grain" />
+      <Button fx:id="yopO" layoutX="14.0" layoutY="313.0" mnemonicParsing="false" onAction="#yopO" prefHeight="47.0" prefWidth="105.0" text="Ore" />
+      <Label fx:id="yopText" layoutX="14.0" layoutY="81.0" prefHeight="31.0" prefWidth="131.0" text="du darfst zwei nehmen" />
+      <TextField fx:id="playernumber" alignment="CENTER" layoutX="-7.0" layoutY="-7.0" prefHeight="645.0" prefWidth="876.0" text="Playernumber:">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="playercount" layoutX="598.0" layoutY="282.0" prefHeight="68.0" prefWidth="149.0">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </TextField>
+      <Button layoutX="12.0" layoutY="13.0" mnemonicParsing="false" onAction="#setStart" prefHeight="61.0" prefWidth="157.0" text="Start">
+         <font>
+            <Font name="Berlin Sans FB" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
